@@ -1,10 +1,12 @@
 {
-    "body": {
-        "model":"hkt_looker_demo",
-        "view":"copernicus_lob_opportunity_beg_202210_fin_tech_carto_v2_bf_segmented",
-        "fields":["copernicus_lob_opportunity_beg_202210_fin_tech_carto_v2_bf_segmented.district"],
-        "limit":"500",
-        "query_timezone":"America/Los_Angeles"
-    },
-    "result_format": "json"
+  "body": {
+    "model": "hkt_looker_demo",
+    "view": "copernicus_lob_opportunity_beg_202210_fin_tech_carto_v2_bf_segmented",
+    "fields": [
+      "copernicus_lob_opportunity_beg_202210_fin_tech_carto_v2_bf_segmented.district"
+    ],
+    "limit": "500",
+    "query_timezone": "America/Los_Angeles"
+  },
+  "result_format": "json"
 }

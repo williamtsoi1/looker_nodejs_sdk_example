@@ -23,7 +23,7 @@ import {
   // make any other calls to the Looker SDK
 
   const json = await sdk.ok(sdk.run_inline_query(req));
-  console.log( { json } );
+  console.log({ json });
 
   await sdk.authSession.logout();
   if (!sdk.authSession.isAuthenticated()) {
