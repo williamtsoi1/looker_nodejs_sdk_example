@@ -1,0 +1,18 @@
+{
+  "body": {
+    "model": "hkt_looker_demo",
+    "view": "copernicus_lob_opportunity_beg_202210_fin_tech_carto_v2_bf_segmented",
+    "fields": [
+      "copernicus_lob_opportunity_beg_202210_fin_tech_carto_v2_bf_segmented.bldg_code",
+      "copernicus_lob_opportunity_beg_202210_fin_tech_carto_v2_bf_segmented.latitude",
+      "copernicus_lob_opportunity_beg_202210_fin_tech_carto_v2_bf_segmented.longitude",
+      "copernicus_lob_opportunity_beg_202210_fin_tech_carto_v2_bf_segmented.address",
+      "copernicus_lob_opportunity_beg_202210_fin_tech_carto_v2_bf_segmented.bank1_opportunity",
+      "copernicus_lob_opportunity_beg_202210_fin_tech_carto_v2_bf_segmented.bank1_penetration",
+      "copernicus_lob_opportunity_beg_202210_fin_tech_carto_v2_bf_segmented.industry_penetration",
+      "copernicus_lob_opportunity_beg_202210_fin_tech_carto_v2_bf_segmented.imputed_pvi",
+      "copernicus_lob_opportunity_beg_202210_fin_tech_carto_v2_bf_segmented.cnt"
+    ]
+  },
+  "result_format": "json"
+}

@@ -22,8 +22,19 @@ import {
   //   console.log({me})
   // make any other calls to the Looker SDK
 
-  const json = await sdk.ok(sdk.run_inline_query(req));
-  console.log({ json });
+  for (let i = 0; i < 10; i++) {
+    console.time("looker" + i);
+    const json_1 = await sdk.ok(sdk.run_inline_query(req))
+    .then((json_1) => {
+      console.timeLog("looker" + i);
+    });
+  }
+
+
+  // const json = await sdk.ok(sdk.query_for_slug("YGvEuI9eseT8Oh73XUTZ2r"));
+  // const json = await sdk.ok(sdk.look(1));
+  // console.log({ json });
+  //
 
   await sdk.authSession.logout();
   if (!sdk.authSession.isAuthenticated()) {
