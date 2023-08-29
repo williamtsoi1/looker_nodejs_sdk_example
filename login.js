@@ -4,6 +4,7 @@
 // to looker
 import * as dotenv from "dotenv";
 import req from "./req.json" assert { type: "json" };
+import options from "./options.json" assert { type: "json" };
 dotenv.config();
 import {
   LookerNodeSDK,
@@ -24,7 +25,7 @@ import {
 
   for (let i = 0; i < 10; i++) {
     console.time("looker" + i);
-    const json_1 = await sdk.ok(sdk.run_inline_query(req))
+    const json_1 = await sdk.ok(sdk.run_inline_query(req, options))
     .then((json_1) => {
       console.timeLog("looker" + i);
     });

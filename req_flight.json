@@ -1,0 +1,10 @@
+{
+  "body": {
+    "model": "flights",
+    "view": "regions",
+    "fields": [
+      "regions.region_name"
+    ]
+  },
+  "result_format": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "body": {
+    "model": "thelook",
+    "view": "order_items",
+    "fields": [
+      "products.department"
+    ]
+  },
+  "result_format": "json"
+}
